@@ -1,0 +1,14 @@
+.dice-wrapper {
+   width: 90%;
+   display: flex;
+   justify-content: space-around;
+}
+
+.dice-area {
+  text-align: center;
+}
+
+h2 {
+  margin: 2rem 0;
+
+}

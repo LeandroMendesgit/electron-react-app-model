@@ -68,6 +68,7 @@ function Dices() {
                 <div className='dice-area'>
                     <p> Jogador 1 </p>
                     <img src={dado1} ref={user1} alt='Dice'/>
+                    </div>
                 </div>
                 <div className='dice-area'>
                     <p> Jogador 2 </p>
@@ -86,7 +87,7 @@ function Dices() {
             </button>
             <h2 ref={tittleHistoryResult}>Histórico</h2>
             <ul>
-            {history.map((item) = > (
+            {history.map((item) => (
             <li key={item.id}>{item.value}</li>
             ))}
             </ul>
